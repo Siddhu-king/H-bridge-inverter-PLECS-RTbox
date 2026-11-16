@@ -1,9 +1,9 @@
 # Design and Simulation of an H-Bridge Inverter (PLECS + RT-Box)
 
-**Module:** EG7231 – Real Time Simulation for Industry 4.0
-**Institution:** University of Leicester, School of Engineering
-**Author:** Siddhant Satyawan Jagtap
-**Supervisor:** Dr. Yuan Gao
+- **Module:** EG7231 – Real Time Simulation for Industry 4.0
+- **Institution:** University of Leicester, School of Engineering
+- **Author:** Siddhant Satyawan Jagtap
+- **Supervisor:** Dr. Yuan Gao
 
 ## Overview
 A single-phase H-bridge DC-AC inverter modelled in PLECS and run in real time on a
@@ -24,18 +24,12 @@ Two cases are compared:
 | Dead time | 0 ms / 3 ms |
 
 ## Repository contents
-```
-.
-├── README.md
-├── model/
-│   └── Sid_Inverter.plecs        # PLECS model
-├── report/
-│   └── Final_R-TBox.pdf          # Full written report
-└── images/                       # (optional) scope / oscilloscope screenshots
-```
+- `Sid_Inverter.plecs` – PLECS model
+- `Final R-TBox.pdf` – full written report
+- `README.md` – this file
 
 ## How to run
-1. Open `model/Sid_Inverter.plecs` in PLECS (Standalone or Blockset).
+1. Open `Sid_Inverter.plecs` in PLECS (Standalone or Blockset).
 2. Run the simulation and inspect the Scope (load voltage, currents I1 and I2).
 3. For real-time operation, build the model for the RT-Box target and connect
    Analog Out 1 to Channel 1 of the oscilloscope.
@@ -47,4 +41,7 @@ Two cases are compared:
 - RT-Box oscilloscope output matched the PLECS simulation (≈50 Hz).
 
 ## References
-Mohan et al., *Power Electronics*; Plexim PLECS and RT-Box manuals; Holmes & Lipo, *Pulse Width Modulation for Power Converters*; Rashid, *Power Electronics Handbook*.
+- Mohan, Undeland and Robbins, *Power Electronics: Converters, Applications, and Design*, Wiley
+- Plexim, PLECS User Manual and RT-Box User Manual
+- Holmes and Lipo, *Pulse Width Modulation for Power Converters*, IEEE Press
+- Rashid, *Power Electronics Handbook*
